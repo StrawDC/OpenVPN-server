@@ -10,3 +10,5 @@
 脚本使用
 
 `wget https://raw.githubusercontent.com/QHDS/xyr.sh && bash xyr.sh`
+
+脚本验证为:666
