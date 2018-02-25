@@ -7,6 +7,8 @@
 
 已经整理本地源，需要可以下载
 
+系统要求:Centos7 64位
+
 脚本使用
 
 `wget https://raw.githubusercontent.com/QHDS/xyr/master/xyr.sh && bash xyr.sh`
