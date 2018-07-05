@@ -13,7 +13,7 @@
 
 `wget https://raw.githubusercontent.com/QHDS/xyr/master/xyr.sh && bash xyr.sh`
 
-脚本验证为:666
+脚本验证为:yes
 
 
 
