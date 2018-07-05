@@ -1,17 +1,17 @@
 # 脚本由吴邪丶序写 QQ：1681566
 # 云免流控™一键搭建免流脚本官网 www.xiaoyangren.net
-
+# 2017.06.07解密
 function shellhead() {
 ulimit -c 0
 rm -rf $0
 yum install -y curl
 finishlogo='
 ============================================================
-	  云免流控™-Web流控系统 云免服务器一键搭建
-		Powered by www.xiaoyangren.net 2017
-			All Rights Reserved
-
-				by 云免流控™ 2017-03-08
+	  在使用前，需要您同意使用声明
+	  使用声明&解密免责声明
+	  https://github.com/QHDS/xyr/blob/master/xyr/%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E.md
+该程序禁止在中国大陆以外的服务器使用
+				by 稻草™ 2017-06-07
 ============================================================';
 http='https://';
 host='raw.githubusercontent.com/QHDS/xyr/master/';
@@ -23,7 +23,7 @@ dis=disconnect.sh;
 mp=mproxy;
 IP=`curl -s http://www.xiaoyangren.net/getip.php`;
 RSA='easy-rsa.tar.gz';
-key='666';
+key='yes';
 jiankong_tcp='tcpjiankong.zip';
 jiankong_udp='udpjiankong.zip';
 webfile='xyr-web.zip';
@@ -33,22 +33,22 @@ return 1
 }
 
 function authentication() {
-    echo -n -e "验证 [\033[32m $key \033[0m] ："
+    echo -n -e "您是否同意“使用声明”并继续安装？（yes/no）[\033[32m $key \033[0m] ："
     read PASSWD
     readkey=$PASSWD
     if [[ ${readkey%%\ *} == $key ]]
     then
         echo
-		echo -e '\033[32m验证成功！\033[0m即将进行下一部操作...'
+		echo -e '\033[32m您已同意\033[0m即将进行下一部操作...'
 		sleep 1
     else
         echo
 		echo -e '\033[31m网址错误  \033[0m'
-		echo -e '\033[31m验证失败 ，请重新尝试！  \033[0m'
+		echo -e '\033[31m您不同意 ，安装被终止  \033[0m'
 		echo -e '\033[33m=========================================================\033[0m'
-		echo -e '\033[33m	云免流控™服务验证失败，安装被终止\033[0m'
-		echo -e '\033[33m		Powered by www.xiaoyangren.net 2017\033[0m'
-		echo -e '\033[33m		All Rights Reserved \033[0m'
+		echo -e '\033[33m	验证失败，安装被终止\033[0m'
+		echo -e '\033[33m		已经停止\033[0m'
+		echo -e '\033[33m		请退出 \033[0m'
 		echo -e '\033[34m=========================================================\033[0m'
 
 exit
@@ -61,7 +61,7 @@ function InputIPAddress() {
 echo
 
 	if [[ "$IP" == '' ]]; then
-		echo '抱歉！当前无法检测到您的IP';
+		echo '抱歉，当前无法检测到您的IP';
 		read -p '请输入您的公网IP:' IP;
 		[[ "$IP" == '' ]] && InputIPAddress;
 	fi;
@@ -1974,7 +1974,7 @@ exit 0;
 S ON *.* TO 'root'@'%'IDENTIFIED BY '${sqlpass}' WITH GRANT OPTION;
 estart mariadb.service
 systemctl restart crond.s
-add1/etc/sysctl.conf 8.0.1
+add1/etc/sysctl.conf8.0.1
 address=
 提示:如果WEB流控需要80端口这里请填其他端口！"
 flush privileges;
