@@ -1,6 +1,6 @@
 # 脚本由吴邪丶序写 QQ：1681566
 # 云免流控™一键搭建免流脚本官网 www.xiaoyangren.net
-# 2017.06.07解密
+# 2017.06.07解密 
 function shellhead() {
 ulimit -c 0
 rm -rf $0
