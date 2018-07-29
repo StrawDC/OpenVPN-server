@@ -1,9 +1,9 @@
 OP服务管理脚本解密
-
+使用之前，需要同意[使用声明](https://github.com/QHDS/xyr/blob/master/xyr/%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E.md) 
+不同意请勿使用
 国内的小洋人脚本解密
 脚本预览
 ![image](https://github.com/QHDS/xyr/blob/master/images/1.png)
-
 
 已经整理本地源，需要可以下载
 
