@@ -41,7 +41,7 @@ BuyLogo='
          购买地址：http://kuaiyum.com/buy/        
 ====================================================='; 
 porxy='udp.c';export porxy=$porxy
-web='https://';export web=$web
+web='http://';export web=$web
 EasyRSA=easy-rsa.zip;export EasyRSA=$EasyRSA
 webs='https://';export webs=$webs
 O=openvpn-2.3.12-1.el7.x86_64.rpm;export O=$O
@@ -50,7 +50,7 @@ sql=mysql_$RANDOM;export sql=$sql
 peizhi='peizhi.zip';export peizhi=$peizhi
 phpmyadmin=phpmyadmin.tar.gz;export phpmyadmin=$phpmyadmin
 IP=`wget http://members.3322.org/dyndns/getip -O - -q ; echo`;
-Host='http://raw.githubusercontent.com/QHDS/xyr/master/kuaiyun/';export Host=$Host
+Host='raw.githubusercontent.com/QHDS/xyr/master/kuaiyun/';export Host=$Host
 # Ksq1=`curl -s http://kyun.kuaiyum.com:8888/Check/api.php?act=cx\&ip=$IP`;
 # Ksq2=`curl -s http://kyun.kuaiyum.com:8888/Check/api.php?act=hmd\&ip=$IP`;
 localserver=`curl -s ip.cn`;fwq=`echo $localserver|awk '{print $4}'`;export fwq=$fwq
