@@ -1,25 +1,34 @@
-# xyr
+OP服务管理脚本解密
+
 国内的小洋人脚本解密
 脚本预览
 ![image](https://github.com/QHDS/xyr/blob/master/images/1.png)
-![image](https://github.com/QHDS/xyr/blob/master/images/2.png)
 
 
 已经整理本地源，需要可以下载
 
 系统要求:Centos7 64位
 
-脚本使用
+小洋人解密安装：
 
 `wget https://raw.githubusercontent.com/QHDS/xyr/master/xyr.sh && bash xyr.sh`
 
 脚本验证为:yes
+
+快云6期脚本解密安装：
+预览
+系统要求:Centos7.0-7.2 64位
+![image](https://github.com/QHDS/xyr/blob/master/images/ky.png)
+![image](https://github.com/QHDS/xyr/blob/master/images/ky2.png)
+
+`wget https://raw.githubusercontent.com/QHDS/xyr/master/xyr.sh && bash ky.sh`
 
 
 
 使用者的一切与本人无关，使用责任由使用者承担，
 本人只提供解密源以及脚本
 小洋人脚本官网：www.xiaoyangren.net
+快云官网：www.kuaiyun.net（已经关闭）
 
 
 2018.07.29号开始上传快云6期解密脚本以及本地源
