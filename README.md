@@ -1,4 +1,4 @@
-OP服务管理脚本解密<br>
+#OP服务管理脚本解密<br>
 使用之前，需要同意[使用声明](https://github.com/QHDS/xyr/blob/master/xyr/%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E.md) <br>
 不同意请勿使用<br>
 国内的小洋人脚本解密<br>
