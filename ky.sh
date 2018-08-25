@@ -11,7 +11,7 @@ yum install curl net-tools procps-ng -y >/dev/null 2>&1
 KyLogo='
 =====================================================    
                                      
-☆-欢迎使用快云免流第六期流控搭建脚本 
+☆-欢迎使用快云免流第六期流控搭建脚本。
                                                         
 ☆-Powered by kuaiyum.com 2017 All Rights Reserved                
 =====================================================';
