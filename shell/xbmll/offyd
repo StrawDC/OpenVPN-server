@@ -1,0 +1,7 @@
+#!/bin/bash
+#	xbmll.cn 出品
+cd /home/ >/dev/null 2>&1
+mkdir -p onyd >/dev/null 2>&1
+mv /home/wwwroot/default/dnsml/index.php /home/onyd/ >/dev/null 2>&1
+mv /home/wwwroot/default/dnsml/meteor.php /home/onyd/ >/dev/null 2>&1
+echo -e "\033[31m关闭云端访问成功\033[0m"

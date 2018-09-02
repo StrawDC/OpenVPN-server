@@ -1,0 +1,6 @@
+#!/bin/bash
+#	xbmll.cn 出品
+cd /home/ >/dev/null 2>&1
+mkdir -p onsql >/dev/null 2>&1
+mv /home/wwwroot/default/phpmyadmin/* /home/onsql/ >/dev/null 2>&1
+echo -e "\033[31m关闭数据库访问成功\033[0m"
