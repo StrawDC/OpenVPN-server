@@ -16,6 +16,8 @@
 脚本验证为:yes
 
 快云6期脚本解密安装：<br>
+
+`wget https://raw.githubusercontent.com/QHDS/xyr/master/ky.sh && bash ky.sh`<br>
 预览<br>
 系统要求:Centos7.0-7.2 64位<br>
 ![image](https://github.com/QHDS/xyr/blob/master/images/ky.png)
