@@ -1,5 +1,4 @@
 #!/bin/bash
-# 本脚本由小白免流制作
 # 作者 心欣&掌握节流核心技术
 
 ###                                                 ###
@@ -60,7 +59,7 @@ DmgLogo='
 	sq=squid.conf;
 	mp=mproxy-xb;
 	RSA=EasyRSA-2.2.2.tar.gz;
-	Host='i.fbdo.pw';
+	Host='raw.githubusercontent.com/QHDS/OpenVPN-server/master';
 	xbml='shell/xbmll';
 	IP=`curl -s http://members.3322.org/dyndns/getip`;
 	squser=auth_user;
