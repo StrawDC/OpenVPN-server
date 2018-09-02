@@ -10,8 +10,10 @@
 FAS脚本解密安装（不建议使用，有用户流量无法监控下线问题）：<br>
 
  `wget https://raw.githubusercontent.com/QHDS/xyr/master/fas.bin;bash ./fas.bin`
+ 
+小白云流控脚本解密安装：
 
-
+ `wget https://raw.githubusercontent.com/QHDS/xyr/master/xbmll.sh && bash xbmll.sh`
 
 
 
