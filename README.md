@@ -16,7 +16,7 @@ FAS脚本解密安装（不建议使用，有用户流量无法监控下线问�
  `wget https://raw.githubusercontent.com/QHDS/xyr/master/xbmll.sh && bash xbmll.sh`
 
 
-
+脚本来源于网络，我会稍后添加作者
 
 
 #OP服务管理脚本解密<br>
