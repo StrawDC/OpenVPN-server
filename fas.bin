@@ -428,8 +428,9 @@ if [ ! -f /root/fasapp_by_hyx.apk ]; then
 echo
 echo "筑梦FAS系统APP制作失败！"
 echo
-echo "请留言Github
+echo "请自行前往大佬装逼交流群获取手动对接APP源！"
 echo
+echo "大佬装逼交流群：541349340    欢迎你的加入！"
 exit;0
 fi
 }
@@ -452,6 +453,9 @@ if [ ! -f /var/www/html/fasapp_by_hyx.apk ]; then
 echo
 echo "筑梦FAS系统APP制作失败！"
 echo
+echo "请自行前往大佬装逼交流群获取手动对接APP源！"
+echo
+echo "大佬装逼交流群：541349340    欢迎你的加入！"
 fi
 }
 function zhuji() {
@@ -728,6 +732,8 @@ echo "---------------------------------------------"
 echo "数据库60分钟自动备份，备份目录在/root/backup/"
 echo "数据库手动备份命令：backup "
 echo "APP下载地址: http://"$IP":"$juliApacheport"/fasapp_by_hyx.apk"
+echo "FAS破解作者: 何以潇    QQ："$qqhao"         "
+echo "大佬装逼交流群：541349340    欢迎你的加入！  "
 echo "---------------------------------------------"
 echo "---------------------------------------------"
 exit;0
@@ -1187,13 +1193,13 @@ read -p " 请输入选项并回车: " a
 echo
 k=$a
 if [[ $k == 1 ]];then
-downloaddizhi="Github载源";
-downloadhost="https://raw.githubusercontent.com/QHDS/OpenVPN-server/master/FAS/";
+downloaddizhi="北京腾讯云下载源（适用于中国大陆服务器）";
+downloadhost="https://raw.githubusercontent.com/QHDS/xyr/master/FAS/";
 fi
 	
 if [[ $k == 2 ]];then
-downloaddizhi="报废的下载源
-downloadhost="http://www.baidu.com/;
+downloaddizhi="德国高防云下载源（适用于国外海外服务器）";
+downloadhost="http://fas.daloradius.cn/QQ1744744000FAS/";
 fi
 
 echo
@@ -1388,12 +1394,7 @@ clear
 sleep 2
 echo -e "\033[34m----------------------------------------------------------------------------\033[0m"
 echo -e "\033[36m                         欢迎使用FAS网络用户管理系统                          \033[0m"
-echo 
-echo -e "\033[33m                        "$banben" ("$time123"更新 (No."$version"))            \033[0m"
-echo -e "\033[32m        "
-echo -e "\033[34m----------------------------------------------------------------------------\033[0m"
-echo
-echo -e "\033[34m------------------------------同意 请回车继续-------------------------------\033[0m"
+echo -e "\033[34m------------------------------请回车继续-------------------------------\033[0m"
 read
 ipget
 fi
@@ -1403,12 +1404,7 @@ clear
 sleep 2
 echo -e "\033[34m----------------------------------------------------------------------------\033[0m"
 echo -e "\033[36m                         欢迎使用FAS网络用户管理系统                          \033[0m"
-echo 
-echo -e "\033[33m                        "$banben" ("$time123"更新 (No."$version"))            \033[0m"
-echo -e "\033[32m        "
-echo -e "\033[34m----------------------------------------------------------------------------\033[0m"
-echo
-echo -e "\033[34m------------------------------同意 请回车继续-------------------------------\033[0m"
+echo -e "\033[34m------------------------------请回车继续-------------------------------\033[0m"
 read
 ipget
 fi
@@ -1480,8 +1476,8 @@ yum -y install curl wget docker openssl net-tools procps-ng >/dev/null 2>&1
 banben="V3.0";
 time123="2018.09.01";
 version="011";
-qqhao"XXXXX
-Crackauthor="XXX
+qqhao"XXXXXXX";
+Crackauthor="XXX";
 logo
 }
 main
