@@ -40,7 +40,7 @@ function authentication() {
     if [[ ${readkey%%\ *} == $key ]]
     then
         echo
-		echo -e '\033[32m您已同意\033[0m即将进行下一部操作...'
+		echo -e '\033[32m验证成功！\033[0m即将进行下一部操作...'
 		sleep 1
     else
         echo
