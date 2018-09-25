@@ -1,4 +1,7 @@
 
+
+为避免滥用，脚本稍微改动一些，无法直接安装，自行修改即可，一眼看出的那种
+
 小洋人解密安装：
 
 `wget https://raw.githubusercontent.com/QHDS/xyr/master/xyr.sh && bash xyr.sh`
